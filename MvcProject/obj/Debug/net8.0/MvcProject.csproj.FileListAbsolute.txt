@@ -28,3 +28,4 @@ D:\PTPMQL_01\MvcProject\obj\Debug\net8.0\refint\MvcProject.dll
 D:\PTPMQL_01\MvcProject\obj\Debug\net8.0\MvcProject.pdb
 D:\PTPMQL_01\MvcProject\obj\Debug\net8.0\MvcProject.genruntimeconfig.cache
 D:\PTPMQL_01\MvcProject\obj\Debug\net8.0\ref\MvcProject.dll
+D:\PTPMQL_01\MvcProject\obj\Debug\net8.0\MvcProject.sourcelink.json
