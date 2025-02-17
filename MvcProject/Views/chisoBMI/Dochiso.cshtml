@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Home page";
+}
+<h1>ĐO CHỈ SỐ CÂN NẶNG - CHIỀU CAO (BMI) ONLINE</h1>
+
+
+    <form asp-action="Dochiso">
+    <label >Nhập giới tính:</label>
+    <input type="text" name="Gender">
+    <label >Nhập cân nặng:</label>
+    <input type="number" name="Weight">
+    <label >Nhập chiều cao:</label>
+    <input type="number" name="Height">
+    <input type="submit" value="Gửi dữ liệu">
+    </form>
+    <h1>@ViewBag.BMI</h1>
+

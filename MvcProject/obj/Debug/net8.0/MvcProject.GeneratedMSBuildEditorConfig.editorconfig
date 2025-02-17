@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\PTPMQL_01\MvcProject
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/PTPMQL_01/MvcProject/Views/chisoBMI/Dochiso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcY2hpc29CTUlcRG9jaGlzby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PTPMQL_01/MvcProject/Views/DiemMonHoc/TinhDiem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbU1vbkhvY1xUaW5oRGllbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PTPMQL_01/MvcProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,10 +44,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/PTPMQL_01/MvcProject/Views/student/Guinhandulieu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZGVudFxHdWluaGFuZHVsaWV1LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/PTPMQL_01/MvcProject/Views/student/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PTPMQL_01/MvcProject/Views/_ViewImports.cshtml]
