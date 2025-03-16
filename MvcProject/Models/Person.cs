@@ -1,11 +1,13 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcProject.Models;
-
+[Table("Person")]
 public class Person
 {
-    public required string PersonId { get; set; }
+    [Key]
+    public  string PersonId { get; set; }
     public string? FullName { get; set; }
     [DataType(DataType.Date)]
-    public string? Address { get; set; }
+    public  string Address { get; set; }
 }

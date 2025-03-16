@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="Myjs.js"></script>
 </head>
 <body>
     <h1>Nguyễn Hồng Hiếu-2121050189<h1>
@@ -93,7 +94,7 @@
     <table border="1">
         <caption>THÔNG TIN SINH VIÊN</caption>
         <tr>
-            <th align="right">Họ và Tên</th>
+            <th align="right" >Họ và Tên</th>
             <td>Nguyễn Hồng Hiếu</td>
         </tr>
         <tr>
@@ -143,5 +144,93 @@
             <input type="checkbox" name="gender" value="Female"> Nữ
         </p>
     </form>
+    <h1 style="text-align: center;">FORM NHẬP SƠ YẾU LÝ LỊCH SINH VIÊN</h1>
+
+    <table border="1" style="border-collapse: collapse;">
+        <caption>TRƯỜNG ĐẠI HỌC MỎ - ĐỊA CHẤT</caption>
+        
+        <tr>
+            <th colspan="4" style="text-align: center;">THÔNG TIN CƠ BẢN</th>
+        </tr>
+    
+        <tr>
+            <td>Họ và Tên: </td>
+            <td><input type="text" name="fullname"></td>
+            <td rowspan="4" style="text-align: left;">Ảnh 3x4: </td>
+            <td rowspan="4"><img src="img/doremon.jpg" alt="Ảnh sinh viên"height="50px"></td>
+        </tr>
+    
+        <!-- Dữ liệu sinh viên -->
+        <tr>
+            <td>Ngày Sinh</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+    
+        <tr>
+            <td>Giới Tính</td>
+            <td>
+                    <label><input type="checkbox" name="gender" value="Nam"> Nam</label>
+                    <label><input type="checkbox" name="gender" value="Nữ"> Nữ</label>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <td>Số CMND</td>
+            <td><input type="text" name="cmnd"></td>
+        </tr>
+    
+        <tr>
+            <td>Mã Số Sinh Viên</td>
+            <td><input type="text" name="mssv"></td>
+            <td>Lớp:</td>
+            <td><input type="text" name="lop"></td>
+        </tr>
+        <tr>
+            <td>Khoa</td>
+            <td><input type="text" name="khoa"></td>
+            <td>Khóa học:</td>
+            <td><input type="text" name="khoahoc"></td>
+        </tr>
+        <tr>
+            <td>Ngành Học</td>
+            <td><input type="text" name="nganh"></td>
+        </tr>
+        <tr>
+            <th colspan="4" style="text-align: center;">THÔNG TIN LIÊN HỆ</th>
+        </tr>
+        
+        <tr>
+            <td >Địa chỉ thường trú:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        
+    </table>
+    <h1 style="color: darkgray;"> Màu</h1>
+    
 </body>
 </html>
