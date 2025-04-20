@@ -8,5 +8,8 @@ namespace MvcProject.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options) : base(options){}
         public DbSet<student> students { get; set; }
         public DbSet<Person> Persons { get; set; }
+        public DbSet<Employee> Employees { get; set; }
+
+        
     }
 }
